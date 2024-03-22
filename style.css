@@ -1,0 +1,123 @@
+
+
+body {
+	background: url(back.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 75%;
+	font-family: Bookman Old Style, sans-serif;
+	letter-spacing: 0.15em;	
+	color: #efefef;}
+h1 {
+	
+	font-size: 380%;
+	font-family: 'Brush Script MT', cursive;
+}
+#page {
+	max-width: 700px;
+	min-width: 720px;
+	position: relative;
+	margin:100px auto;
+	padding: 20px;
+	border: 2px double rgba(79, 117, 134, 0.8);
+	border-style:groove; 
+	background-color: #c0c0c0;
+	background: rgba(25, 51, 62, 0.9);
+	border-radius: 25px;
+	/*mix-blend-mode: luminosity;*/}
+	
+#colum{
+	float: left;
+	padding-left:25px;
+}
+
+#photo img{
+	border:10px;
+	border-color:solid white;
+}
+
+ul {
+	width: 600px;
+	padding: 15px;
+	margin: 0 auto;
+	border: 4px solid;
+	border-radius:20px;
+	border-color: rgba(49, 94, 104, 0.8);
+	background-color: rgba(25, 98, 112, 0.8);
+	text-align: center;
+	}
+li {
+	display: inline;
+	margin: 0 auto;}
+#navigation a {
+	border-radius: 25px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration:wavy;
+	padding: 6px 10px 5px 20px;}
+#navigation a:hover, #navigation a.on {
+	color: #000;
+	background-color: #ffffff;
+	font-size: 100%;
+	font-family: 'bold';}
+
+#content {
+	width: 600px;
+	margin: 0 auto;}
+figure {
+	padding-top: 10px;
+	width: 600px;
+	margin: 0 auto;}
+	
+/* Additional styles for the forms */
+label {
+	float: left;
+	width: 70px;}
+br {
+	clear: left;}	
+form {
+	padding: 20px 0 20px 0;
+	width: 650px;
+	margin: 0 auto;}
+legend {
+	font-weight: bold;}
+	
+/* Additional styles for the tables */
+table { 
+font-size: 100%;
+	font-family: Arial, sans-serif;
+	filter: none;
+	letter-spacing: 0.15em;	
+	border-collapse: collapse;
+	width: 600px;
+	margin: 0 auto;
+	background-color: rgba(2, 87, 104, 0.6);}
+
+table, th, td {
+	border: 1px solid #ffffff;}
+td {
+	padding: 10px;
+}
+gallery td {
+	text-align: center;
+}
+
+
+button{
+	font-size: 13;
+	font-family: cursive ;
+	border-radius: 10px;
+}
+a:link{
+	color: aqua;
+}
+a:visited{
+	color: cadetblue;	
+}
+
+#photo img{
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
